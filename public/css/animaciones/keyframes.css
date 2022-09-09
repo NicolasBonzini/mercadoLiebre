@@ -1,0 +1,16 @@
+@keyframes cards-description{
+    0%{
+        display:none;
+    }
+    1%{
+        display: block;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.artiuculos{
+    background-color: red;
+}

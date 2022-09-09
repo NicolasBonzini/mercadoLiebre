@@ -1,0 +1,24 @@
+.piePagina{
+    margin-top: 30vh;
+    background-color: #ebd234;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+
+}
+
+i{
+    font-size: 1.2em;
+    /* margin-bottom: 10px; */
+    margin-right: 10px;
+}
+
+.footer__content{
+    display: flex;
+    padding: 10px;
+text-align: center;
+}
+.footer__content-title{
+    font-weight: bold;
+    font-size: 1.2em;
+}

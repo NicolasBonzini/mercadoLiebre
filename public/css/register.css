@@ -1,0 +1,45 @@
+.register_form{
+    margin-top: 60px;
+}
+
+.register{
+    
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: auto;
+}
+
+.title_form{
+    text-align: left;
+}
+
+h3{
+    font-weight: bold;
+    text-align: left;
+}
+
+.perfil_usuario{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.perfil_usuario input{
+    margin-right: 20px;
+}
+
+.intereses_form{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    /* gap: 15px; */
+}
+
+.intereses_form input{
+    margin-right: 20px;
+}
+

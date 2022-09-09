@@ -1,0 +1,79 @@
+.main-container{
+    text-align: center;
+    width: 90vw;
+    margin: auto; 
+    /* height: 100%; */
+    margin-top: 70px;
+}
+
+ /* article{
+    border-top: solid 1px white;
+    background-color: white;
+} */
+
+
+ul{
+    list-style: none;
+}
+
+.productos{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.titulares{
+    font-size: 24px;
+    width: 100%;
+    color: var(--gris-oscuro);
+    /* justify-content: center; */
+
+}
+
+/* .precios{
+    font-size: 18px;
+} */
+
+/* .descuentos, .descripciones{
+    font-size: 16px;
+} */
+
+.site-navbar, .login-navbar{
+    display: none;
+}
+
+.login_form{
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+}
+
+
+@media screen and (min-width: 361px){
+    .descripciones{
+        display: block;
+    }
+
+    main article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        cursor: pointer;
+    }
+}
+
+
+@media (min-width: 600px){
+    .main-container{
+        margin-top: 140px;
+    }
+}
+
+
+@media (min-width: 1000px){
+    .main-container{
+        margin-top: 160px;
+    }
+}
+
